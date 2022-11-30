@@ -253,7 +253,7 @@ with implementation:
             hasilakhir='B'
         else :
             hasilakhir='A'
-        st.write("Berdasarkan data yang Anda masukkan, maka mangga dinyatakan mangga memiliki grade: {hasilakhir}")
+        st.write(f"Berdasarkan data yang Anda masukkan, maka mangga dinyatakan mangga memiliki grade: {hasilakhir}")
 
     all = st.button("Submit")
     if all :
